@@ -1,4 +1,4 @@
-import fs from 'fs';
+/*import fs from 'fs';
 import path from 'path';
 import { jidDecode } from '@whiskeysockets/baileys';
 
@@ -43,4 +43,4 @@ handler.help = ['logout'];
 handler.tags = ['jadibot'];
 handler.command = ['logout'];
 
-export default handler;
+export default handler;*/
