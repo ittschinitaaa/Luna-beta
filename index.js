@@ -1,4 +1,4 @@
-process.env['NODE_TLS_REJECT_UNAUTHORIZED'] = '1'
+uprocess.env['NODE_TLS_REJECT_UNAUTHORIZED'] = '1'
 import './settings.js'
 import { startSub } from './lib/conexion.js'
 import cfonts from 'cfonts'
@@ -34,12 +34,12 @@ let { say } = cfonts
 
 console.log(chalk.magentaBright('\nIniciando...'))
 
-say('Luna Bot', {
+say('Luna Bot\n(beta)', {
   font: 'simple',
   align: 'left',
   gradient: ['green', 'white']
 })
-say('Powered By China 🔥', {
+say('Powered By China ', {
   font: 'console',
   align: 'center',
   colors: ['cyan', 'magenta', 'yellow']
