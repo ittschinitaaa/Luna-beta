@@ -30,8 +30,8 @@ const jam = moment.tz('America/Argentina/Buenos_Aires').locale('id').format('HH:
 const ucapan = jam < '05:00:00' ? 'Buen día' : jam < '11:00:00' ? 'Buen día' : jam < '15:00:00' ? 'Buenas tardes' : jam < '18:00:00' ? 'Buenas tardes' : jam < '19:00:00' ? 'Buenas tardes' : jam < '23:59:00' ? 'Buenas noches' : 'Buenas noches';
 
 let menu = `\n\n`
-menu += `> . ﹡ ﹟ 🌹 ׄ ⬭ ${ucapan}  *${m.pushName ? m.pushName : 'Sin nombre'}*\n\n`
-menu += `ׅㅤꨶ〆⁾ ㅤׄㅤ⸼ㅤׄ *͜🐼* ㅤ֢ㅤ⸱ㅤᯭִ\n`
+menu += `> . ﹡ ﹟ 🌕 ׄ ⬭ ${ucapan}  *${m.pushName ? m.pushName : 'Sin nombre'}*\n\n`
+menu += `ׅㅤꨶ〆⁾ ㅤׄㅤ⸼ㅤׄ *͜🪐* ㅤ֢ㅤ⸱ㅤᯭִ\n`
 menu += `ׅㅤ𓏸𓈒ㅤׄ *Plugins ›* ${plugins}\n`
 menu += `ׅㅤ𓏸𓈒ㅤׄ *Versión ›* (beta) ⋆. 𐙚 ˚\n\n`
 menu += `ׅㅤ𓏸𓈒ㅤׄ *Fecha ›* ${tiempo}, ${tiempo2}\n`
