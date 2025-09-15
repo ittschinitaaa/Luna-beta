@@ -1,5 +1,5 @@
 > [!IMPORTANT]
-> **Este proyecto está en constante evolución. Estamos comprometidos en ofrecer a nuestra comunidad un Bot increíble. Te invitamos a instalarlo y para estar al tanto de todas las novedades.**
+> **Este proyecto es la version beta de Luna Bot,estoy trabajando para ofrecerte una mejor version de Luna beta.**
 
 <p align="center"> 
 <img src="https://files.catbox.moe/if757e.jpg" alt="SakuraBot-MD" style="width: 75%; height: auto; max-width: 100px;">
@@ -12,7 +12,7 @@
 
 ## 🪻 Descripción 
 
-`Luna Bot` es un bot de WhatsApp multifuncional basado en `baileys`. Este bot ofrece una variedad de características para mejorar tu experiencia en WhatsApp.
+`Luna (beta)` es un bot de WhatsApp multifuncional basado en `baileys`. Este bot ofrece una variedad de características para mejorar tu experiencia en WhatsApp.
 
 ---
 
@@ -40,7 +40,7 @@ termux-setup-storage
 apt update && apt upgrade && pkg install -y git nodejs ffmpeg imagemagick yarn
 ```
 ```bash
-git clone https://github.com/ittschinitaaa/Luna && cd Luna
+git clone https://github.com/ittschinitaaa/Luna-beta && cd Luna-beta
 ```
 ```bash
 yarn install
@@ -82,7 +82,7 @@ pm2 start index
 ### En caso de detenerse
 > _Si despues que ya instalastes tu bot y termux te salta en blanco, se fue tu internet o reiniciaste tu celular, solo realizaras estos pasos:_
 ```bash
-cd && cd Luna && npm start
+cd && cd Luna-beta && npm start
 ```
 ----
 ### Obtener nuevo código QR 
@@ -101,12 +101,12 @@ cd && cd Luna && rm -rf sessions/session-bot && npm run code
 <details>
 <summary><b>🫛 Actualizar Luna Bot</b></summary>
 
-> **Utiliza esta opción únicamente si deseas actualizar a la última versión de Luna Bot. Hemos implementado un método ingenioso mediante comandos para realizar la actualización, pero ten en cuenta que al usarla se eliminarán todos los archivos de la versión actual y se reemplazarán con los de la nueva versión. Solo se conservará la base de datos, por lo que será necesario volver a vincular el Bot.**  
+> **Utiliza esta opción únicamente si deseas actualizar a la última versión de Luna (beta). Hemos implementado un método ingenioso mediante comandos para realizar la actualización, pero ten en cuenta que al usarla se eliminarán todos los archivos de la versión actual y se reemplazarán con los de la nueva versión. Solo se conservará la base de datos, por lo que será necesario volver a vincular el Bot.**  
 
 **Comandos para actualizar Luna Bot de forma automática**
 
 ```bash
-grep -q 'bash\|wget' <(dpkg -l) || apt install -y bash wget && wget -O - https://raw.githubusercontent.com/ittschinitaaa/Luna/master/update.sh | bash 
+grep -q 'bash\|wget' <(dpkg -l) || apt install -y bash wget && wget -O - https://raw.githubusercontent.com/ittschinitaaa/Luna-beta/master/update.sh | bash 
 ```
 #### Para que no pierda su progreso en Luna Bot, estos comandos realizarán un respaldo de su `datos.json` y se agregará a la versión más reciente.
 > *Estos comandos solo funcionan para TERMUX, REPLIT, LINUX*
