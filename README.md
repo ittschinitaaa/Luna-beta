@@ -120,6 +120,8 @@ grep -q 'bash\|wget' <(dpkg -l) || apt install -y bash wget && wget -O - https:/
 ### 🌾 Colaboradores
 [![China](https://github.com/miaoficial02.png?size=50)](https://github.com/miaoficial02) 
 
+[![China](https://github.com/miaoficial02.png?size=50)](https://github.com/miaoficial02) 
+
 ---
 ### 🌾 Autora Del Proyecto
 [![China](https://github.com/ittschinitaaa.png?size=100)](https://github.com/ittschinitaaa) 
