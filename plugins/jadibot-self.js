@@ -1,4 +1,4 @@
-let handler = async (m, { conn, args }) => {
+/*let handler = async (m, { conn, args }) => {
   const isSocketOwner = [
     conn.user.jid,
     ...(global.owner || []).map(n => n + '@s.whatsapp.net'),
@@ -32,4 +32,4 @@ handler.help = ['self'];
 handler.tags = ['jadibot'];
 handler.command = ['self'];
 
-export default handler;
+export default handler;*/
