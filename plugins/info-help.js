@@ -85,7 +85,7 @@ const channelRD = canales[Math.floor(Math.random() * canales.length)]
 
  await conn.sendMessage(m.chat, {
 document: await (await fetch(banner)).buffer(),
-fileName: '^0.0.9 | Lastest 🌱',
+fileName: '^1.0.0 | Lastest 🌱',
 mimetype: "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
 fileLength: '0',
 pageCount: '1',
