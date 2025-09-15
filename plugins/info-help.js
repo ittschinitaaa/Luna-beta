@@ -56,7 +56,7 @@ menu += `𓏸𓈒ㅤׄ *tipo  ›*  ${botType}\n`
         continue;
       }
       const catName = category.charAt(0).toUpperCase() + category.slice(1)
-      menu += `\nㅤ🍂ᯭ⁾ ㅤׄ  ꤥㅤׄㅤꤪꤨ${catName}ㅤꤪꤨㅤ֢ㅤׄㅤׅ\n`
+      menu += `\nㅤ⏤͟͟͞͞🌟̫֠͢⁾ ㅤׄ  ꤥㅤׄㅤꤪꤨ${catName}ㅤꤪꤨㅤ֢ㅤׄㅤׅ\n`
       cmds.forEach(cmd => {
       const match = usedPrefix.match(/[#\/+.!-]$/);
 const separator = match ? match[0] : '';
