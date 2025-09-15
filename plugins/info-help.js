@@ -35,7 +35,7 @@ menu += `ׅㅤꨶ〆⁾ ㅤׄㅤ⸼ㅤׄ *͜🐼* ㅤ֢ㅤ⸱ㅤᯭִ\n`
 menu += `ׅㅤ𓏸𓈒ㅤׄ *Plugins ›* ${plugins}\n`
 menu += `ׅㅤ𓏸𓈒ㅤׄ *Versión ›* (beta) ⋆. 𐙚 ˚\n\n`
 menu += `ׅㅤ𓏸𓈒ㅤׄ *Fecha ›* ${tiempo}, ${tiempo2}\n`
-menu += `𓏸𓈒ㅤׄ *tipo  ›*  ${botType}
+menu += `𓏸𓈒ㅤׄ *tipo  ›*  ${botType}\n`
     const categoryArg = args[0]?.toLowerCase();
     const categories = {};
 
