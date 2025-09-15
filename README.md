@@ -1,5 +1,5 @@
 > [!IMPORTANT]
-> **Este proyecto es la version `Beta` de Luna Bot,estoy trabajando para ofrecerte una mejor version de Luna beta.**
+> **Este proyecto es la version `BETA` de Luna Bot, Estoy trabajando para ofrecerte una mejor version de Luna beta.**
 
 <p align="center"> 
 <img src="https://files.catbox.moe/if757e.jpg" alt="SakuraBot-MD" style="width: 75%; height: auto; max-width: 100px;">
