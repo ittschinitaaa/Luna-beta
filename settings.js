@@ -14,7 +14,7 @@ global.wm = '⏤͟͞ू⃪ 𝐋𝕌𝐍𝔸 𝐁𝕆𝐓 𑁯★ᰍ'
 global.author = '🔥 𝕮𝖍𝖎𝖓𝖆'
 global.dev = '© ᴘᴏᴡᴇʀᴇᴅ ʙʏ ᴄʜɪɴᴀ 🔥'
 
-global.banner = 'https://files.catbox.moe/wnvt8z.png'
+global.banner = 'https://files.catbox.moe/if757e.jpg'
 global.icon = 'https://files.catbox.moe/57djkj.jpg'
 global.currency = 'StarCoins'
 global.sessions = 'sessions/session-bot'
