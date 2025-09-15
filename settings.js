@@ -4,7 +4,10 @@ import { fileURLToPath } from "url"
 
 global.botNumber = ""
 
-global.owner = ["923256941884"]
+global.owner = ["923256941884"], 
+               ["5492644996684"], 
+               ["573243768166"], 
+  ];
 
 global.botname = '⏤͟͞ू⃪ 𝐋𝕌𝐍𝔸 𝐁𝕆𝐓 𑁯★ᰍ'
 global.namebot = '⏤͟͞ू⃪ 𝐋𝕌𝐍𝔸 𝐁𝕆𝐓 𑁯★ᰍ'
