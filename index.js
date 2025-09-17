@@ -353,7 +353,7 @@ setInterval(async () => {
   if (stopped === 'close' || !conn || !conn?.user) return;
   const _uptime = process.uptime() * 1000;
   const uptime = clockString(_uptime);
-  const bio = `🌙 𝐋𝐮𝐧𝐚 |⏰ 𝐔𝐩𝐭𝐢𝐦𝐞 : ${uptime}`;
+  const bio = ` ⏤͟͟͞͞𝐋𝐮𝐧𝐚 𝐛𝐞𝐭𝐚 |⏰ 𝐔𝐩𝐭𝐢𝐦𝐞 : ${uptime}`;
   await conn?.updateProfileStatus(bio).catch((_) => _);
 }, 60000);
 function clockString(ms) {
