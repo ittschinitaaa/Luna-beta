@@ -6,7 +6,7 @@ const handler = async (m, { conn }) => {
     if (!participantes.length) return m.reply('🕸 No hay a quién expulsar.')
 
     // Imagen temática de La Purga
-    const purgeImage = 'https://i.ibb.co/dWDtqs7/purge.jpg' // Puedes cambiar el link por otra imagen más tenebrosa
+    const purgeImage = 'https://files.catbox.moe/ofb9np.jpg' // Puedes cambiar el link por otra imagen más tenebrosa
 
     const mensaje = `🩸 *LA PURGA HA COMENZADO* 🩸\n
 ⚠️ Todos los pecadores serán expulsados del grupo ⚠️\n
